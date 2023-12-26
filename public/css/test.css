@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+    font-family: Oswald;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background: #2e3e41;
+}
+.container{
+    padding: 19px;
+    height: 100vh;
+    border: red;
+
+}
+
+.quiz{
+    position: relative;
+    bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    border:1px solid white;
+    /*width: 1200px;*/
+    margin: 80px auto;
+    padding: 60px;
+    color: white;
+    gap: 25px;
+    box-shadow: 1px 5px 18px 14px rgba(230,206,206,0.49);
+    -webkit-box-shadow: 1px 5px 18px 14px rgba(230,206,206,0.49);
+    -moz-box-shadow: 1px 5px 18px 14px rgba(230,206,206,0.49);
+
+}
+.quiz-title{
+    font-size: 24px;
+}
+.quiz-item{
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(247, 241, 241);
+    width: 100%;
+    padding: 5px;
+    background: #333;
+    transition: all ease 0.5s;
+    -webkit-box-shadow: 2px 2px 19px 0px rgba(235,221,235,1);
+    -moz-box-shadow: 2px 2px 19px 0px rgba(235,221,235,1);
+    box-shadow: 2px 2px 19px 0px rgba(235,221,235,1);
+    /* box-shadow: 1px 5px 18px 14px rgba(230,206,206,0.49);
+    -webkit-box-shadow: 1px 5px 18px 14px rgba(230,206,206,0.49);
+    -moz-box-shadow: 1px 5px 18px 14px rgba(230,206,206,0.49); */
+
+}
+
+.quiz-item:hover{
+    transform: scale(1.1);
+    overflow: hidden;
+}
+
+.quiz-prefix{
+    padding: 15px 25px;
+    background-color: #eb5656;
+    color: white;
+    /* font-size: 16px; */
+}
+
+.quiz-text{
+    font-size: 20px;
+    margin-left: 20px;
+}
+.quiz-text:hover{
+    cursor: pointer;
+    color: #00897b;
+}
+.correct{
+    background-color: #25d366;
+}
+.incorrect{
+    background-color: rgb(206, 57, 57);
+}
+
+#quizHead{
+    display: flex;
+    justify-content: space-between;
+}
+.quiz-head-prefix{
+    text-align: center;
+    font-size: 18px;
+}
+.quiz-head-text{
+    position: relative;
+    top: 10px;
+    background-color: #25d366;
+    text-align: center;
+    border-radius: 5px;
+}
+
+
+
+
+

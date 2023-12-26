@@ -1,0 +1,138 @@
+
+.content-raper{
+    border: 1px solid red;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.inp{
+    border: none;
+    height: 40px;
+    border-bottom: 1px dashed green;
+}
+.card{
+    border: 1px solid green;
+    background-color: white;
+    width: 400px;
+    height: 500px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.btn-ok{
+    border: none;
+    background-color: green;
+    height: 40px;
+    color: aliceblue;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.btn-back{
+    border:1px solid green;
+    background-color: white;
+    height: 40px;
+    color: green;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.cvv{
+    display: flex;
+    gap: 60px;
+}
+
+.zerthana{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    align-items: center;
+    background-color: #53bdeb;
+}
+
+.zerthana-item{
+    width: 1000px;
+    height: 800px;
+    background-color: #fff;
+    position: relative;
+    top: 30%;
+    box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.1);
+    padding: 20px;
+    border-radius: 15px 15px;
+
+}
+
+.zerthana-title{
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: bold;
+    letter-spacing: 4px;
+    line-height: 80px;
+}
+
+.title-1{
+    text-align: center;
+    letter-spacing: 4px;
+    color: #000;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.title-1 span{
+    color: #000;
+}
+
+.teoriya{
+    text-align: center;
+    line-height: 100px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.teoriya-p{
+    text-indent: 20px;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.tapsirma h3{
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.tapsirma ul{
+    padding: 30px;
+    line-height: 50px;
+    font-size: 20px;
+}
+
+.tapsirma-btn{
+    border: none;
+    background-color: green;
+    height: 40px;
+    width: 100px;
+    align-items: center;
+    color: aliceblue;
+    font-size: 18px;
+    border-radius: 5px;
+    float: right;
+    /* width: 100px;
+    height: 30px;
+    border: green;
+    background-color: white;
+    color: green;
+    text-transform: uppercase;
+    font-size: 18px;
+    cursor: pointer; */
+}
